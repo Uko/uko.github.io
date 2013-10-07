@@ -1,1 +1,1 @@
-exclude: ['Gemfile', 'Gemfile.lock', 'deploy.sh']
+exclude: ['Gemfile', 'Gemfile.lock', 'CNAME']
