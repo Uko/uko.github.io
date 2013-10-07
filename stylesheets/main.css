@@ -68,3 +68,11 @@ section:nth-child(odd) {
 .margin-top-medium {
   margin-top: 1em;
 }
+
+#publications h4 {
+  margin-top: 15px;
+}
+
+#publications h5 {
+  margin-top: -5px;
+}
