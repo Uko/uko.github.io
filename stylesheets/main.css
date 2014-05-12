@@ -10,6 +10,12 @@
   margin-bottom: 1em;
 }
 
+.img-pull-right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
 .social-links {
   font-size: 2em;
   margin-bottom: 0px;
