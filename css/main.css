@@ -384,10 +384,12 @@ input.search-form:hover {
   background-color: black;
   color: white;
   text-align: justify;
+  margin-top: -50px;
 }
 
 @media(min-width:768px) {
   #jumbotron {
+    margin-top: 0px;
     background-image: url('../images/slider/bg1.jpg');
     position: relative;
     background-position: 30% 30%;
@@ -419,6 +421,10 @@ input.search-form:hover {
   -moz-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms;
+}
+
+#jumbotron img.visible-xs {
+  margin-right: 10px;
 }
 
 #jumbotron .social a i.fa-stack-1x:hover {
