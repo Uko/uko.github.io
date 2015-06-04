@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #000;
+  background: #fff;
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
@@ -372,12 +372,6 @@ input.search-form:hover {
 .navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
-}
-
-@media(min-width:768px) {
-  body {
-    margin-top: 64px;
-  }
 }
 
 
@@ -2460,8 +2454,6 @@ shortcodes page css
 
 #footer {
   border-top: 5px solid #c00000;
-  padding-top: 30px;
-  padding-bottom: 30px;
   color: #fff;
   background: #2e2e2e;
 	width:100%;
@@ -2470,6 +2462,14 @@ shortcodes page css
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 87px;
+}
+
+#footer .container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #footer a {
