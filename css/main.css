@@ -36,6 +36,10 @@ h1{
   color:#fff;
 }
 
+.light h1{
+  color: #000;
+}
+
 h2{
   font-size: 20px;
 }
@@ -141,7 +145,6 @@ body > section {
 
 .center {
   text-align: center;
-  padding-bottom: 55px;
 }
 
 .scaleIn {
@@ -466,6 +469,10 @@ input.search-form:hover {
 #feature {
   background: #f2f2f2;
   padding-bottom: 40px;
+}
+
+.feature-heading{
+  padding-bottom: 55px;
 }
 
 .features{
