@@ -404,6 +404,13 @@ input.search-form:hover {
   }
 }
 
+@media(min-width:1920px) {
+  #jumbotron {
+    background-position: 30% 20%;
+  }
+}
+
+
 #jumbotron h2 {
   color: #eee;
   /*margin: 0;
