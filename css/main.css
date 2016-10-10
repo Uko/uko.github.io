@@ -2517,3 +2517,10 @@ shortcodes page css
   margin-top: 25px;
   margin-bottom: 10px
 }
+
+#publications img.artifact {
+  margin-left: 1em;
+  float: right;
+  height: 10ex;
+  width: 10ex;
+}
