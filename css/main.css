@@ -425,6 +425,11 @@ input.search-form:hover {
   padding: 0 50px;*/
 }
 
+#jumbotron .well {
+  background-color: #0a0a0a;
+  border-color: #1c1c1c;
+}
+
 #jumbotron .social {
   text-align: center;
   margin-top: 30px;
@@ -479,6 +484,14 @@ input.search-form:hover {
   -o-animation: fadeInUp 300ms linear 1200ms both;
   -ms-animation: fadeInUp 300ms linear 1200ms both;
   animation: fadeInUp 300ms linear 1200ms both;
+}
+
+#jumbotron .animation.animated-item-5 {
+  -webkit-animation: tada 1000ms linear 2000ms both;
+  -moz-animation: tada 1000ms linear 2000ms both;
+  -o-animation: tada 1000ms linear 2000ms both;
+  -ms-animation: tada 1000ms linear 2000ms both;
+  animation: tada 1000ms linear 2000ms both;
 }
 
 #feature {
