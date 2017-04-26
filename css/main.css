@@ -377,6 +377,14 @@ input.search-form:hover {
   padding-bottom: 0;
 }
 
+.navbar-inverse .navbar-btn {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-btn:hover {
+  background-color: #c00000;
+}
+
 
 /*************************
 *******Home Page******
@@ -2523,4 +2531,10 @@ shortcodes page css
   float: right;
   height: 10ex;
   width: 10ex;
+}
+
+.btn-cv {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #c00000;
+    -moz-box-shadow:inset 0px 0px 0px 2px #c00000;
+    box-shadow:inset 0px 0px 0px 2px #c00000;
 }
